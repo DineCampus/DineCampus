@@ -1,0 +1,615 @@
+[
+    {
+      "id": 1,
+      "name": "快乐西餐",
+      "icon": "/images/storeIcon1.png",
+      "items": [
+        {
+            "id": 101,
+            "name": "烤鸡沙拉(Grilled Chicken Salad)",
+            "description": "烤鸡胸肉，混合蔬菜沙拉，樱桃番茄，黄瓜，佐以轻盈油醋汁。",
+            "price": "19",
+            "image": "/images/chickensalad.jpg"
+          },
+        {
+          "id": 102,
+          "name": "番茄意大利面(Spaghetti with Marinara Sauce)",
+          "description": "配自制番茄酱的简单意大利面，旁边配有蒜香面包。",
+          "price": "19",
+          "image": "/images/spaghettimarinara.jpeg"
+        },
+        {
+          "id": 103,
+          "name": "蔬菜炒饭(Veggie Stir-Fry with Rice)",
+          "description": "混合时令蔬菜，用酱油调味，与蒸米饭一起炒制。",
+          "price": "19",
+          "image": "/images/vegstirfry.jpeg"
+        },
+        {
+          "id": 104,
+          "name": "番茄汤配烤奶酪三明治(Tomato Soup and Grilled Cheese Sandwich)",
+          "description": "番茄汤配烤奶酪三明治 经典组合，奶油番茄汤配上芝士烤三明治，舒心美味。",
+          "price": "17",
+          "image": "/images/tomatosoupgc.jpeg"
+        },
+        {
+          "id": 105,
+          "name": "蛋炒饭(Egg Fried Rice)",
+          "description": "蛋，豌豆，胡萝卜和洋葱炒饭，加入少许酱油和芝麻油。",
+          "price": "12",
+          "image": "/images/eggfriedrice.jpeg"
+        },
+        {
+          "id": 106,
+          "name": "烤土豆配料(Baked Potato with Toppings)",
+          "description": "大号烤土豆，可以选择多种配料，如酸奶油，细香葱，碎奶酪，和培根碎。",
+          "price": "5",
+          "image": "/images/bakedpotato.jpeg"
+        },
+        {
+          "id": 107,
+          "name": "春季蔬菜意面(Pasta Primavera)",
+          "description": "意大利面拌时令蔬菜，橄榄油和大蒜调味。",
+          "price": "18",
+          "image": "/images/pastaprimavera.jpeg"
+        },
+        {
+          "id": 108,
+          "name": "鸡肉玉米饼(Chicken Quesadilla)",
+          "description": "玉米面饼夹杂调味鸡肉，彩椒，洋葱和融化的奶酪，旁边配有莎莎酱。",
+          "price": "13",
+          "image": "/images/chickenquesadilla.jpeg"
+        },
+        {
+          "id": 109,
+          "name": "辣椒炖肉(Chili Con Carne)",
+          "description": "一碗丰盛的辣椒炖肉，包含碎牛肉，红豆，番茄和辣椒香料，配几片面包。",
+          "price": "15",
+          "image": "/images/chillicorncarne.jpeg"
+        },
+        {
+          "id": 110,
+          "name": "蔬菜煎蛋(Vegetable Omelette)",
+          "description": "三个鸡蛋制成的煎蛋，内有切碎的蔬菜和奶酪，旁边配有烤面包。",
+          "price": "7",
+          "image": "/images/vegomelete.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "麻辣汤",
+      "icon": "/images/storeIcon2.png",
+      "items": [
+        {
+          "id": 201,
+          "name": "辣汤底",
+          "description": "传统的四川辣椒基础汤。",
+          "image": "/images/spicytang.jpeg"
+        },
+        {
+          "id": 202,
+          "name": "清汤底",
+          "description": "温和的鸡肉或蔬菜汤。",
+          "image": "/images/vegtang.jpeg"
+        },
+        {
+          "id": 203,
+          "name": "羊肉",
+          "weight": "100",
+          "price": "3.5"
+        },
+        {
+          "id": 204,
+          "name": "猪肉",
+          "weight": "100",
+          "price": "2.5"
+        },
+        {
+          "id": 205,
+          "name": "牛肉",
+          "weight": "100",
+          "price": "4.0"
+        },
+        {
+          "id": 206,
+          "name": "鸡肉",
+          "weight": "100",
+          "price": "2.5"
+        },
+        {
+          "id": 207,
+          "name": "罗非鱼",
+          "weight": "100",
+          "price": "2.5"
+        },
+        {
+          "id": 208,
+          "name": "虾",
+          "weight": "100",
+          "price": "4.5"
+        },
+        {
+          "id": 209,
+          "name": "白菜",
+          "weight": "100",
+          "price": "1.0"
+        },
+        {
+          "id": 210,
+          "name": "菠菜",
+          "weight": "100",
+          "price": "1.0"
+        },
+        {
+          "id": 211,
+          "name": "甜玉米",
+          "weight": "100",
+          "price": "1.5"
+        },
+        {
+          "id": 212,
+          "name": "蘑菇",
+          "weight": "100",
+          "price": "2.0"
+        },
+        {
+          "id": 213,
+          "name": "彩椒",
+          "weight": "100",
+          "price": "1.5"
+        },
+        {
+          "id": 214,
+          "name": "莲藕",
+          "weight": "100",
+          "price": "2.0"
+        },
+        {
+          "id": 215,
+          "name": "硬豆腐",
+          "weight": "100",
+          "price": "1.0"
+        },
+        {
+          "id": 216,
+          "name": "豆腐皮",
+          "weight": "100",
+          "price": "1.5"
+        },
+        {
+          "id": 217,
+          "name": "豆泡",
+          "weight": "100",
+          "price": "1.5"
+        },
+        {
+          "id": 218,
+          "name": "粉丝",
+          "weight": "100",
+          "price": "1.0"
+        },
+        {
+          "id": 219,
+          "name": "乌冬面",
+          "weight": "100",
+          "price": "1.5"
+        },
+        {
+          "id": 220,
+          "name": "年糕",
+          "weight": "100",
+          "price": "1.5"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BUSSIN 汉堡",
+      "icon": "/images/storeIcon3.png",
+      "items": [
+        {
+          "id": 301,
+          "name": "经典汉堡（Classic Burger）",
+          "description": "精选牛肉饼，搭配生菜、番茄、洋葱、腌黄瓜片、奶酪和特制酱料",
+          "price": "18",
+          "image": "/images/classic.jpeg"
+        },
+        {
+          "id": 302,
+          "name": "芝士汉堡（Cheeseburger）",
+          "description": "经典汉堡加上一层融化的奶酪，经典不失风味",
+          "price": "20",
+          "image": "/images/cheeseburger.jpeg"
+        },
+        {
+          "id": 303,
+          "name": "鸡肉汉堡（Chicken Burger）",
+          "description": "酥脆鸡肉排配上新鲜生菜和香浓蛋黄酱",
+          "price": "16",
+          "image": "/images/chicken.jpeg"
+        },
+        {
+          "id": 304,
+          "name": "素食汉堡（Veggie Burger）",
+          "description": "自制素食饼，配以烤蘑菇、鳄梨、生菜和番茄",
+          "price": "15",
+          "image": "/images/veggie.jpeg"
+        },
+        {
+          "id": 305,
+          "name": "烟熏培根汉堡（Smoky Bacon Burger）",
+          "description": "经典汉堡加上烟熏培根，搭配烟熏调味酱",
+          "price": "22",
+          "image": "/images/bacon.jpeg"
+        },
+        {
+          "id": 306,
+          "name": "辣椒汉堡（Spicy Burger）",
+          "description": "辣味牛肉饼，加上辣椒酱、辣椒片和胡椒奶酪",
+          "price": "19",
+          "image": "/images/spicy.jpg"
+        },
+        {
+          "id": 307,
+          "name": "BBQ风味汉堡（BBQ Burger）",
+          "description": "特制BBQ酱烤牛肉饼，加上洋葱圈和烟熏奶酪",
+          "price": "21",
+          "image": "/images/bbq.jpeg"
+        },
+        {
+          "id": 308,
+          "name": "薯条（Fries）",
+          "price": "10",
+          "image": "/images/fries.jpeg"
+        },
+        {
+            "id": 309,
+            "name": "洋葱圈（Onion Rings）",
+            "price": "12",
+            "image": "/images/onionrings.jpeg"
+          },
+          {
+            "id": 310,
+            "name": "沙拉（Salad）",
+            "price": "14",
+            "image": "/images/salad.jpeg"
+          },
+          {
+            "id": 311,
+            "name": "鸡块（Chicken Nuggets）",
+            "price": "15",
+            "image": "/images/nuggets.jpeg"
+          },
+          {
+            "id": 312,
+            "name": "爆米鸡（Popcorn Chicken）",
+            "price": "15",
+            "image": "/images/popchicken.jpeg"
+          },
+          {
+            "id": 313,
+            "name": "芬达（Fanta）",
+            "price": "8",
+            "image": "/images/fanta.jpeg"
+          },
+          {
+            "id": 314,
+            "name": "雪碧（Sprite）",
+            "price": "8",
+            "image": "/images/sprite.jpeg"
+          },
+          {
+            "id": 315,
+            "name": "可乐（Cola）",
+            "price": "8",
+            "image": "/images/cola.jpeg"
+          },
+          {
+            "id": 316,
+            "name": "热巧克力（Hot Chocolate）",
+            "price": "12",
+            "image": "/images/hotchoco.jpeg"
+          },
+          {
+            "id": 317,
+            "name": "冰柠檬红茶（Iced Lemon Black Tea）",
+            "price": "10",
+            "image": "/images/icedtea.jpeg"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "水果吧",
+        "icon": "/images/storeIcon4.png",
+        "items": [
+          {
+            "id": 401,
+            "name": "Mixed Fruit Bowl",
+            "description": "ADD description",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "12",
+            "quantity": 1,
+            "image": "/images/mixedfruitbowl.jpeg"
+          },
+          {
+            "id": 402,
+            "name": "橙片盒 (Sliced Orange Bowl)",
+            "description": "新鲜多汁的橙片，富含维生素C。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "6",
+            "quantity": 1,
+            "image": "/images/slicedoranges.jpeg"
+          },
+          {
+            "id": 403,
+            "name": "西瓜块盒 (Chopped Watermelon Bowl)",
+            "description": "甜美的西瓜块，完美解渴。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "5",
+            "quantity": 1,
+            "image": "/images/choppedwatermelon.jpg"
+          },
+          {
+            "id": 404,
+            "name": "洗净葡萄盒 (Washed Grapes Bowl)",
+            "description": "一碗新鲜的无籽葡萄，易于食用且富含抗氧化剂。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "7",
+            "quantity": 1,
+            "image": "/images/washedgrapes.jpeg"
+          },
+          {
+            "id": 405,
+            "name": "菠萝盒 (Pineapple Bowl)",
+            "description": "新鲜切碎的菠萝，味道酸爽，富含有助消化的酵素。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "8",
+            "quantity": 1,
+            "image": "/images/choppedpineapple.jpeg"
+          },
+          {
+            "id": 406,
+            "name": "桃片盒 (Sliced Peach Bowl)",
+            "description": "多汁甜美的桃片，带有天然的香甜味道和细腻的口感。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "7",
+            "quantity": 1,
+            "image": "/images/slicedpeach.jpeg"
+          },
+          {
+            "id": 407,
+            "name": "奇异果盒 (Kiwi Bowl)",
+            "description": "切片的奇异果，是维生素C、维生素K和膳食纤维的极佳来源。",
+            "weight": "1 bowl (Approx. 500 g)",
+            "price": "9",
+            "quantity": 1,
+            "image": "/images/slicedkiwi.jpeg"
+          },
+          {
+            "id": 408,
+            "name": "橙汁 (Orange Juice)",
+            "description": "",
+            "weight": "300 ml",
+            "price": "5",
+            "quantity": 1,
+            "image": "/images/orangejuice.jpeg"
+          },
+          {
+            "id": 409,
+            "name": "胡萝卜汁 (Carrot Juice)",
+            "description": "",
+            "weight": "400 ml",
+            "price": "6",
+            "quantity": 1,
+            "image": "/images/carrotjuice.jpeg"
+          },
+          {
+            "id": 410,
+            "name": "西瓜汁 (Watermelon Juice)",
+            "description": "",
+            "weight": "300 ml",
+            "price": "5",
+            "quantity": 1,
+            "image": "/images/watermelonjuice.jpeg"
+          },
+          {
+            "id": 411,
+            "name": "苹果汁 (Apple Juice)",
+            "description": "",
+            "weight": "296 ml",
+            "price": "5",
+            "quantity": 1,
+            "image": "/images/applejuice.jpeg"
+          },
+          {
+            "id": 412,
+            "name": "菠萝汁 (Pineapple Juice)",
+            "description": "",
+            "weight": "330 ml",
+            "price": "6",
+            "quantity": 1,
+            "image": "/images/pineapplejuice.jpeg"
+          },
+          {
+            "id": 413,
+            "name": "葡萄汁 (Grape Juice)",
+            "description": "",
+            "weight": "355 ml",
+            "price": "5",
+            "quantity": 1,
+            "image": "/images/grapejuice.jpeg"
+          },
+          {
+            "id": 414,
+            "name": "芒果汁 (Mango Juice)",
+            "description": "",
+            "weight": "250 ml",
+            "price": "7",
+            "quantity": 1,
+            "image": "/images/mangojuice.jpeg"
+          },
+          {
+            "id": 415,
+            "name": "草莓汁 (Strawberry Juice)",
+            "description": "",
+            "weight": "320 ml",
+            "price": "7",
+            "quantity": 1,
+            "image": "/images/strawberryjuice.jpeg"
+          },
+          {
+            "id": 416,
+            "name": "芒果香蕉冰沙 (Mango Banana Smoothie)",
+            "description": "芒果和香蕉的奶油混合，加入一点点酸奶。",
+            "weight": "300 ml",
+            "price": "10",
+            "quantity": 1,
+            "image": "/images/mangobananasmoothie.jpeg"
+          },
+          {
+            "id": 417,
+            "name": "浆果冰沙 (Berry Smoothie)",
+            "description": "草莓、蓝莓和覆盆子的混合，加入一点苹果汁。",
+            "weight": "300 ml",
+            "price": "10",
+            "quantity": 1,
+            "image": "/images/berrysmoothie.jpeg"
+          },
+          {
+            "id": 418,
+            "name": "绿色蔬菜冰沙 (Green Smoothie)",
+            "description": "菠菜、青苹果、黄瓜和香蕉的混合，有助于健康提升。",
+            "weight": "300 ml",
+            "price": "10",
+            "quantity": 1,
+            "image": "/images/greensmoothie.jpeg"
+          },
+          {
+            "id": 419,
+            "name": "蜂蜜柠檬冰沙 (Honey Lemon Smoothie)",
+            "description": "柠檬汁、蜂蜜和一点姜，带来清新舒缓的味道。",
+            "weight": "300 ml",
+            "price": "10",
+            "quantity": 1,
+            "image": "/images/honeylemonsmoothie.jpeg"
+          },
+          {
+            "id": 420,
+            "name": "草莓酸奶冰沙 (Strawberry Yogurt Smoothie)",
+            "description": "新鲜草莓与奶油酸奶和一点香草的混合。",
+            "weight": "300 ml",
+            "price": "10",
+            "quantity": 1,
+            "image": "/images/strawberryyogurtsmoothie.jpeg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "中式餐厅",
+        "icon": "/images/storeIcon5.png",
+        "items": [
+          {
+            "id": 501,
+            "name": "西安肉夹馍 (Xi’an Pork Burger)",
+            "description": "西安风味小吃，香煎猪肉夹在自制馍饼中，外酥里嫩。",
+            "price": "8",
+            "image": "/images/xianporkburger.jpg"
+          },
+          {
+            "id": 502,
+            "name": "广东烧鹅 (Guangdong Roast Goose)",
+            "description": "选用广东地区传统方法烹制的烧鹅，皮脆肉嫩，色泽金黄。",
+            "price": "12",
+            "image": "/images/guangdongroastgoose.jpg"
+          },
+          {
+            "id": 503,
+            "name": "福建佛跳墙 (Fujian Buddha Jumps Over the Wall)",
+            "description": "福建传统海味滋补汤，含多种珍贵海产品和药材。",
+            "price": "15",
+            "image": "/images/fujianbuddhajumpsoverthewall.jpg"
+          },
+          {
+            "id": 504,
+            "name": "江苏糖醋里脊 (Jiangsu Sweet and Sour Pork)",
+            "description": "酥炸猪里脊肉片，搭配甜酸酱汁，江苏风味。",
+            "price": "10",
+            "image": "/images/jiangsusweetandsourpork.jpg"
+          },
+          {
+            "id": 505,
+            "name": "四川麻婆豆腐 (Sichuan Mapo Tofu)",
+            "description": "辣豆腐，配有花椒和碎肉，麻辣鲜香。",
+            "price": "7",
+            "image": "/images/sichuanmapotofu.jpg"
+          },
+          {
+            "id": 506,
+            "name": "四川冷面 (Sichuan Cold Noodles)",
+            "description": "麻辣酱汁拌面，配以黄瓜丝和花生碎。",
+            "price": "5",
+            "image": "/images/sichuancoldnoodles.jpg"
+          },
+          {
+            "id": 507,
+            "name": "葱油饼 (Scallion Pancakes)",
+            "description": "台湾风味的薄饼，酥脆可口，葱香四溢。",
+            "price": "4",
+            "image": "/images/scallionpancakes.jpg"
+          },
+          {
+            "id": 508,
+            "name": "蒜蓉生菜 (Garlic Lettuce)",
+            "description": "快炒生菜，加入大量蒜蓉增添风味。",
+            "price": "5",
+            "image": "/images/garliclettuce.jpg"
+          },
+          {
+            "id": 509,
+            "name": "干煸四季豆 (Dry-fried Green Beans)",
+            "description": "四川风格的干煸四季豆，外酥里嫩，带有豆瓣酱和少量肉末。",
+            "price": "6",
+            "image": "/images/dryfriedgreenbeans.jpg"
+          },
+          {
+            "id": 510,
+            "name": "珍珠奶茶 (Bubble Tea)",
+            "description": "台湾风味的奶茶，加入黑珍珠，口感丰富。",
+            "weight": "300 ml",
+            "price": "4",
+            "quantity": 1,
+            "image": "/images/bubbletea.jpg"
+          },
+          {
+            "id": 511,
+            "name": "杏仁茶 (Almond Tea)",
+            "description": "甜杏仁茶，香港风味，营养丰富。",
+            "weight": "300 ml",
+            "price": "4",
+            "quantity": 1,
+            "image": "/images/almondtea.jpg"
+          },
+          {
+            "id": 512,
+            "name": "乌龙茶 (Oolong Tea)",
+            "description": "半发酵的中国茶，具有独特的香气和味道。",
+            "weight": "300 ml",
+            "price": "3",
+            "quantity": 1,
+            "image": "/images/oolongtea.jpg"
+          },
+          {
+            "id": 513,
+            "name": "绿茶 (Green Tea)",
+            "description": "提神醒脑的经典中国绿茶，味道清新。",
+            "weight": "300 ml",
+            "price": "3",
+            "quantity": 1,
+            "image": "/images/greentea.jpg"
+          }
+        ]      
+      }
+    ]
