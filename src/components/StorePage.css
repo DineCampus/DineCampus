@@ -1,0 +1,144 @@
+/* src/components/StorePage.css */
+
+.store-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh; /* Minimum height of 100% of the viewport height */
+  box-sizing: border-box; /* Include padding in the element's total width and height */
+  background-color: #fff;
+}
+
+.store-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.store-page-header img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 10px; /* Space between icon and store name */
+}
+
+.store-page-header h1 {
+  font-size: 24px;
+  margin: 0; /* Remove default margin */
+}
+
+.store-page img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.store-page p {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .store-page img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .store-page h1 {
+    font-size: 20px;
+  }
+
+  .store-page p {
+    font-size: 16px;
+  }
+}
+
+.store-items {
+  display: flex;
+  justify-content: space-between; /* Adjusts spacing between items */
+  flex-wrap: wrap;
+  gap: 16px; /* Adds space between items */
+}
+
+.store-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 200px; /* Sets a fixed width */
+  background-color: #fff; /* Optional: adds a background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for a sophisticated look */
+}
+
+.store-item-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 180px; /* Reduces the size of the image */
+  margin: 0 auto;
+}
+
+.store-item-name {
+  font-size: 16px;
+  margin: 10px 0;
+  text-decoration: none; /* Removes the underline */
+  color: #333; /* Sets text color */
+}
+
+.store-item-name:hover {
+  text-decoration: underline; /* Underlines on hover */
+}
+
+.store-item-description,
+.store-item-weight,
+.store-item-price {
+  color: #666;
+  margin: 5px 0;
+  font-size: 10px; /* Reduces the font size */
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px; /* Adds space below the quantity controls */
+}
+
+.quantity-controls button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.quantity-controls span {
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.add-to-cart-button {
+  background-color: #ff6347;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.add-to-cart-button:hover {
+  background-color: #ff4500;
+}
+
+.store-item-link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,24 @@
+/* src/components/StudentDashboard.css */
+.student-dashboard {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .dashboard-links a {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .dashboard-links a:hover {
+    background-color: #0056b3;
+  }
+  

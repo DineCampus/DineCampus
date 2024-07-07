@@ -1,0 +1,248 @@
+/* MainPage.css */
+
+.logo {
+  width: 120px;
+  height: auto;
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.stores-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.store-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.store-name {
+  margin-top: 10px;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.main-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  font: small-caps 24px/1 sans-serif;
+  font-size: 20px;
+  position: relative;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+  font-size: 25px;
+  color: #333;
+  font-family: 'Brush Script MT', cursive;
+  white-space: nowrap;
+  text-indent : 140px; 
+  margin-top: 10px;
+}
+
+.logo-heading-container {
+  display: flex;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.search-container {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600%;
+  max-width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0a0a0a;
+  border-radius: 5px;
+}
+
+.navigation-links {
+  display: flex;
+  gap: 15px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.nav-link {
+  color: #fff;
+  background-color: #05386e;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.nav-link:active {
+  background-color: #003f7f;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: -10px;
+  gap: 15px; /* Added gap between buttons */
+}
+
+.auth-button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #205a99;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, border-color 0.3s;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap; /* Prevent text wrapping */
+  display: inline-block; /* Ensure buttons are inline */
+}
+
+.auth-button:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.auth-button:active {
+  background-color: #003f7f;
+  border-color: #003f7f;
+  transform: scale(0.95);
+}
+
+.auth-button:focus {
+  outline: none;
+  border-color: #003f7f;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #205a99; /* Match the logout button color */
+  color: white;
+  padding: 10px 20px; /* Match the padding of the logout button */
+  font-size: 16px;
+  border: 2px solid transparent; /* Match the border of the logout button */
+  border-radius: 5px; /* Match the border-radius of the logout button */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s, border-color 0.3s;
+  white-space: nowrap; /* Prevent text wrapping */
+  display: inline-block; /* Ensure buttons are inline */
+}
+
+.dropbtn:hover {
+  background-color: #0056b3; /* Match the hover color of the logout button */
+  border-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.dropbtn:active {
+  background-color: #003f7f; /* Match the active color of the logout button */
+  border-color: #003f7f;
+  transform: scale(0.95);
+}
+
+.dropbtn:focus {
+  outline: none;
+  border-color: #003f7f;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
